@@ -5,28 +5,22 @@ Determinar el resultado de las cinco operaciones matemáticas realizadas con los
 elementos numéricos*/
 
 var valores = [true, 5, false, "hola", "adios",2];
-if(5 > 2){
-   console.log(true); 
-} else if(2 > 5) {
-    console.log(false);
-} else if(5 < 2) {
-    console.log(false);
-} else if(2 < 5) {
-    console.log(true);
-}else if(2 == 2) {
-    console.log(true);
-} else if(5 == 5) {
-    console.log(true);
-} else if(5 == 2) {
-    console.log(false);
-} else if(2 == 5) {
-    console.log(false);
-} else if("hola" > "adios"){
-    console.log(false);
-}else if("hola" < "adios"){
-    console.log(true);
-}else if("adios" > "hola"){
-    console.log(true);
-}else if("adios" < "hola"){
-    console.log(false);
+
+alert("Hola");
+console.log("hola");
+
+var Num1 = prompt("Ingrese el primer numero");
+var Num1 = prompt("Ahora el segundo");
+
+if(Num1 = Num2){
+  console.log(`${Num1} es diferente a ${Num2} `);
+   else if(Num2 = Num2) {
+       console.log(`${Num2} da igual a ${Num2} `);
+    }
+else if(Num1 = Num1) {
+       console.log(`${Num1} da igual a ${Num1} `);
+    }
 }
+
+console.log("Adios");
+alert("Adios");
